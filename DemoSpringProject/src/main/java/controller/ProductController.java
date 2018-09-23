@@ -9,6 +9,8 @@ import model.Product;
 
 @Controller
 public class ProductController {
+	
+	//This is a web method
 
 	@RequestMapping(value="/" , method=RequestMethod.GET)
 	public String productsPage()
